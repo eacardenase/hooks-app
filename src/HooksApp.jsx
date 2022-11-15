@@ -1,3 +1,5 @@
+import { CounterApp } from './01-useState/CounterApp';
+
 export const HooksApp = () => {
-    return <h2>HooksApp</h2>;
+    return <CounterApp />;
 };
