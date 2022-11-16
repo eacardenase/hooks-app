@@ -12,5 +12,9 @@ export const useForm = (initialForm = {}) => {
         });
     };
 
-    return { ...formState, formState, handleInputChange };
+    const handleFormReset = () => {
+        setFormState(initialForm);
+    };
+
+    return { ...formState, formState, handleInputChange, handleFormReset };
 };
