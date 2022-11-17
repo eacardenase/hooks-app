@@ -4,8 +4,8 @@ import { ShowIncrement } from './ShowIncrement';
 export const CallbackHook = () => {
     const [counter, setCounter] = useState(0);
 
-    const incrementValue = useCallback(() => {
-        setCounter((value) => value + 1);
+    const incrementValue = useCallback((stepValue = 1) => {
+        setCounter((counterValue) => counterValue + stepValue);
     }, []);
 
     // useEffect(() => {
