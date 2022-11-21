@@ -11,7 +11,7 @@ export const TodoItem = ({ todo, handleRemoveTodo, handleToggleTodo }) => {
             >
                 {todo.description}
             </span>
-            ;
+
             <button
                 className="btn btn-danger"
                 onClick={() => handleRemoveTodo(todo.id)}
