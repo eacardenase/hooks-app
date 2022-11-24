@@ -8,6 +8,7 @@ export const TodoItem = ({ todo, handleRemoveTodo, handleToggleTodo }) => {
                     todo.done ? 'text-decoration-line-through fst-italic' : ''
                 }`}
                 onClick={() => handleToggleTodo(todo.id)}
+                aria-label="todo-description"
             >
                 {todo.description}
             </span>
