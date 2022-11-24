@@ -1,0 +1,83 @@
+// Vitest Snapshot v1
+
+exports[`<TodoApp /> > should match snapshot 1`] = `
+<div>
+  <h1>
+    TodoApp: 
+    2
+    ,
+    <small>
+      pendientes:
+      1
+    </small>
+  </h1>
+  <hr />
+  <div
+    class="row"
+  >
+    <div
+      class="col-7"
+    >
+      <ul
+        class="list-group"
+      >
+        <li
+          class="list-group-item d-flex justify-content-between"
+        >
+          <span
+            aria-label="todo-description"
+            class="align-self-center "
+          >
+            Todo #1
+          </span>
+          <button
+            class="btn btn-danger"
+          >
+            Borrar
+          </button>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between"
+        >
+          <span
+            aria-label="todo-description"
+            class="align-self-center text-decoration-line-through fst-italic"
+          >
+            Todo #2
+          </span>
+          <button
+            class="btn btn-danger"
+          >
+            Borrar
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="col-5"
+    >
+      <h4>
+        Agregar TODO
+      </h4>
+      <hr />
+      <form
+        aria-label="form"
+      >
+        <input
+          class="form-control"
+          defaultvalue=""
+          name="description"
+          placeholder="Que debo hacer?"
+          type="text"
+        />
+        <button
+          class="btn btn-outline-primary mt-1"
+          type="submit"
+        >
+          Agregar
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
